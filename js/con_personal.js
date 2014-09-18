@@ -9,8 +9,8 @@ var myGlacierChoice = prompt("I see. Do you like to ski mountain tops, or do you
 var myBeachChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
 var myGolfChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
 
-var patArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN8 ); // injects all the prompt variables (patients) into the new array.
-var totalPat = patArray; // groups the patients entered into the array to pass to console.
+var pctArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN8 ); // injects all the prompt variables (patients) into the new array.
+var totalPat = pctArray; // groups the patients entered into the array to pass to console.
 
 if (myTempChoice == "hot")
 {
