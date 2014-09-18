@@ -14,6 +14,9 @@ var myColdChoice = prompt("I see. Do you like to ski mountain tops, or do you li
 var mySkiChoice = prompt("I see. Do you like the beach, or do you like to golf? "); //user enters beach or golf.
 var myGlacierChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
 
+var myAlaskaChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
+var myPadagoniaChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
+
 
 var coldArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN8 ); // injects all the prompt variables (patients) into the new array.
 var hotArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN8 ); // injects all the prompt variables (patients) into the new array.
