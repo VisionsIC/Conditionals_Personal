@@ -24,24 +24,16 @@ var hotArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN
 var pctArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN8 ); // injects all the prompt variables (patients) into the new array.
 var totalPat = pctArray; // groups the patients entered into the array to pass to console.
 
-if ()
-{ 
-
-
-}
-
-if (myTempChoice == "hot")
-
-{
+if (myTempChoice == "hot") {
     myTempChoice = myHotChoice;
+    }
 alert (myHotChoice);
-}
 
-else if (condition2) {
-    block of code to be executed if the condition1 is false and condition2 is true
-} else {
-    block of code to be executed if the condition1 is false and condition2 is false
-}
+else if (myTempChoice == "cold") {
+         myTempChoice = myColdChoice;
+    }
+
+else {block of code to be executed if the condition1 is false and condition2 is false}
 
 
 var myGPD = myMiles / myMPG; // calculates the miles driven divided by the vehicle's miles per gallon.
