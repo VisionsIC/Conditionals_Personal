@@ -24,12 +24,26 @@ var hotArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN
 var pctArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN8 ); // injects all the prompt variables (patients) into the new array.
 var totalPat = pctArray; // groups the patients entered into the array to pass to console.
 
-if (myTempChoice == "hot")
-{
-roomTemperature = ;
-alert(“It’s getting hot in here”);
-alert(“Air conditioning switched on”);
+if ()
+{ 
+
+
 }
+
+if (myTempChoice == "hot")
+
+{
+    myTempChoice = myHotChoice;
+alert (myHotChoice);
+}
+
+else if (condition2) {
+    block of code to be executed if the condition1 is false and condition2 is true
+} else {
+    block of code to be executed if the condition1 is false and condition2 is false
+}
+
+
 var myGPD = myMiles / myMPG; // calculates the miles driven divided by the vehicle's miles per gallon.
 //console.log(myGPD); //prints out to the console.
 var resultGPD = "You use roughly " + myGPD + " Gallons of gas per day to drive to work."; //Javascript accumulates the totals.
