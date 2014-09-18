@@ -1,5 +1,7 @@
 //Conditionals Personal - Vacation Planner.
 var myTempChoice = prompt("Do you prefer to travel to destinations that are hot or cold? "); //user enters hot or cold.
+var myHotChoice = prompt("I see. Do you like the beach, or do you like to golf?  "); //user enters hot or cold.
+
 if (myTempChoice == "hot")
 {
 roomTemperature = ;
