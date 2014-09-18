@@ -32,6 +32,7 @@ alert (myHotChoice);
 else if (myTempChoice == "cold") {
          myTempChoice = myColdChoice;
     }
+alert (myColdChoice);
 
 else {block of code to be executed if the condition1 is false and condition2 is false}
 
