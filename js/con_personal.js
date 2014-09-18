@@ -29,12 +29,11 @@ if (myTempChoice == "hot") {
     }
 alert (myHotChoice);
 
-else if (myTempChoice == "cold") {
+if (myTempChoice == "cold") {
          myTempChoice = myColdChoice;
     }
 alert (myColdChoice);
 
-else {block of code to be executed if the condition1 is false and condition2 is false}
 
 
 var myGPD = myMiles / myMPG; // calculates the miles driven divided by the vehicle's miles per gallon.
