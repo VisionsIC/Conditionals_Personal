@@ -1,13 +1,22 @@
 //Conditionals Personal - Vacation Planner.
 var myTempChoice = prompt("Do you prefer to travel to destinations that are hot or cold? "); //user enters hot or cold.
+
 var myHotChoice = prompt("I see. Do you like the beach, or do you like to golf? "); //user enters beach or golf.
-var myColdChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
+
 var myBeachChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
 var myGolfChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
+
+var myCaribbChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
+var myPacifChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
+
+var myColdChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
+
 var mySkiChoice = prompt("I see. Do you like the beach, or do you like to golf? "); //user enters beach or golf.
 var myGlacierChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
-var myBeachChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
-var myGolfChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
+
+
+var coldArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN8 ); // injects all the prompt variables (patients) into the new array.
+var hotArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN8 ); // injects all the prompt variables (patients) into the new array.
 
 var pctArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN8 ); // injects all the prompt variables (patients) into the new array.
 var totalPat = pctArray; // groups the patients entered into the array to pass to console.
@@ -22,7 +31,7 @@ var myGPD = myMiles / myMPG; // calculates the miles driven divided by the vehic
 //console.log(myGPD); //prints out to the console.
 var resultGPD = "You use roughly " + myGPD + " Gallons of gas per day to drive to work."; //Javascript accumulates the totals.
 alert(resultGPD); // outputs the result in an alert box in the browser.
-var myDays = prompt("How many days do you work per week? Please enter the total days.") * 50; //user enters the weekly amount of days they work.
+var myDays = prompt("How many days do you work per week? Please enter the total days."); //user enters the weekly amount of days they work.
 var myGTY = myDays * myGPD; // calculates the total of yealy days multiplied by the vehicle's gallons per day.
 //console.log(myGTY); //prints out to the console.
 var resultGTY = "You use roughly " + myGTY + " Gallons of gas per year to drive to work. "; //Javascript accumulates the totals
