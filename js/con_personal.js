@@ -1,60 +1,74 @@
 //Conditionals Personal - Vacation Planner.
+
 var myTempChoice = prompt("Do you prefer to travel to destinations that are hot or cold? "); //user enters hot or cold.
 
 var imHot = "hot"
-var imCold = "cold"
-
 var myHotChoice = prompt("I see. Do you like the beach, or do you like to golf? "); //user enters beach or golf.
-
 var hotBeach = "beach"
+var myBeachChoice = prompt(" I see you like the beach. Do you like the Carribean beaches, or do you like the Pacific beaches? Please type (Carribbean) or (Pacific)."); //user enters beach or golf.
+var beachCarrib = "Carribbean"
+var myCarribChoice = " You would love to kick back and enjoy a vacation here! " + carribPic + " Have some fun in the sun! "; // Javascript displays the totals.
+var beachPacif = "Pacific"
+var myPacifChoice = " You would love to kick back and enjoy a vacation here! " + pacifPic + " Have some fun in the sun! "; // Javascript displays the totals.
 var hotGolf = "golf"
+var myGolfChoice = prompt(" I see you like to golf. Pebble Beach, or Key West Golf? Please type (Pebble Beach) or (Key West)."); //user enters beach or golf.
+var golfKW = "Key West"
+var myPBChoice = "You would love to kick back and enjoy a vacation here!" + kwPic + "Have some fun in the sun!"; // Javascript displays the totals.
+var golfPB = "Pebble Beach"
+var myTGChoice = "You would love to kick back and enjoy a vacation here!" + pbPic + "Have some fun in the sun!"; // Javascript displays the totals.
 
-var myBeachChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
-var myGolfChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
-
-var myCaribbChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
-var myPacifChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
-
-var myColdChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
-
-var mySkiChoice = prompt("I see. Do you like the beach, or do you like to golf? "); //user enters beach or golf.
-var myGlacierChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
-
-var myAlaskaChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
-var myPadagoniaChoice = prompt("I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters ski or hike.
-
-
-var coldArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN8 ); // injects all the prompt variables (patients) into the new array.
-var hotArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN8 ); // injects all the prompt variables (patients) into the new array.
-
-var pctArray = new Array ( pctN1, pctN2, pctN3, pctN4, pctN5, pctN6, pctN7, pctN8 ); // injects all the prompt variables (patients) into the new array.
-var totalPat = pctArray; // groups the patients entered into the array to pass to console.
+var imCold = "cold"
+var myColdChoice = prompt(" I see. Do you like to ski mountain tops, or do you like to hike on glaciers? "); //user enters beach or golf.
+var coldSki = "ski"
+var mySkiChoice = prompt(" I see you like to ski. Do you like the Alaska slopes, or do you like the Russia slopes? Please type (Alaski) or (Russki)."); //user enters beach or golf.
+var skiAlaska = "Alaski"
+var myAlaskiChoice = " You would love to kick back and enjoy a vacation here! " + saPic + " Have some fun in the sun! "; // Javascript displays the totals.
+var skiRussia = "Russki"
+var myRusskiChoice = " You would love to kick back and enjoy a vacation here! " + srPic + " Have some fun in the sun! "; // Javascript displays the totals.
+var coldHike = "hike"
+var myHikeChoice = prompt(" I see you like to hike. Alaskan Wilderness, or Patagonian Glacier Shelf? Please type (Alaska) or (Patagonia)."); //user enters beach or golf.
+var myAHChoice = " You would love to kick back and enjoy a vacation here! " + ahPic + " Have some fun in the sun! "; // Javascript displays the totals.
+var myPHChoice = " You would love to kick back and enjoy a vacation here! " + phPic + " Have some fun in the sun! "; // Javascript displays the totals.
 
 if (myTempChoice == imHot) {
     myTempChoice = myHotChoice;
+    alert (myHotChoice);
     }
-alert (myHotChoice);
 
-if (myTempChoice == "cold") {
-         myTempChoice = myColdChoice;
+if (myHotChoice == hotBeach) {
+    myHotChoice = myBeachChoice;
+    alert (myBeachChoice);
     }
-alert (myColdChoice);
+
+if (myBeachChoice == beachCarrib) {
+    myBeachChoice = myCarribChoice;
+    
+    alert (myCarribChoice);
+    }
+else if (myBeachChoice == beachPacif)
+{
+    myBeachChoice = myPacifChoice;
+    alert (myPacifChoice);
+    }
+
+if (myHotChoice == hotGolf) {
+    myGolfChoice = myPBChoice;
+    alert (myPBChoice);
+    }
+
+else if (myHotChoice == hotGolf) {
+    myGolfChoice = myTGChoice;
+    alert (myTGChoice);
+    }
+
+if (myBeachChoice == beachCarrib) {
+    myBeachChoice = myCarribChoice;
+    alert (myCarribChoice);
+    }
+
+if (myBeachChoice == beachCarrib) {
+    myBeachChoice = myCarribChoice;
+    alert (myCarribChoice);
+    }
 
 
-
-var myGPD = myMiles / myMPG; // calculates the miles driven divided by the vehicle's miles per gallon.
-//console.log(myGPD); //prints out to the console.
-var resultGPD = "You use roughly " + myGPD + " Gallons of gas per day to drive to work."; //Javascript accumulates the totals.
-alert(resultGPD); // outputs the result in an alert box in the browser.
-var myDays = prompt("How many days do you work per week? Please enter the total days."); //user enters the weekly amount of days they work.
-var myGTY = myDays * myGPD; // calculates the total of yealy days multiplied by the vehicle's gallons per day.
-//console.log(myGTY); //prints out to the console.
-var resultGTY = "You use roughly " + myGTY + " Gallons of gas per year to drive to work. "; //Javascript accumulates the totals
-alert(resultGTY); // outputs the result in an alert box in the browser.
-var myGPrice = prompt("How much is the cost of a gallon of gas at your local gas station? Enter the Price Per Gallon. $ "); //user enters the price of gas per gallon.
-myFloat = parseFloat(myGPrice); // allows the user to input a number with a decimal value.
-var myGETY = myFloat * myGTY; // calculates the total of yearly cost of gas.
-var myConvert = parseInt (myGETY); // changes the result to an intereger. 
-//console.log(myGETY); //prints out to the console.
-var resultGETY = "You use roughly $ " + myConvert + " Dollars of your hard earned cash per year to drive to work. "; //Javascript accumulates the totals.
-alert(resultGETY); // outputs the result in an alert box in the browser.
