@@ -1,6 +1,11 @@
 //Conditionals Personal - Vacation Planner.
 var myTempChoice = prompt("Do you prefer to travel to destinations that are hot or cold? "); //user enters hot or cold.
-var myMPG = prompt("Google search your vehicle manufactorer to find out your MPG. Please enter the miles per gallon."); //user enters the miles per gallon their vehicle uses.
+if (myTempChoice == "hot")
+{
+roomTemperature = ;
+alert(“It’s getting hot in here”);
+alert(“Air conditioning switched on”);
+}
 var myGPD = myMiles / myMPG; // calculates the miles driven divided by the vehicle's miles per gallon.
 //console.log(myGPD); //prints out to the console.
 var resultGPD = "You use roughly " + myGPD + " Gallons of gas per day to drive to work."; //Javascript accumulates the totals.
