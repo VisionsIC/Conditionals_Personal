@@ -35,6 +35,11 @@ if (myTempChoice == imHot) {
     alert (myHotChoice);
     }
 
+else if (myTempChoice == imCold) {
+    myTempChoice = myColdChoice;
+    alert (myColdChoice);
+    }
+
 if (myHotChoice == hotBeach) {
     myHotChoice = myBeachChoice;
     alert (myBeachChoice);
