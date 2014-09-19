@@ -4,10 +4,10 @@ var myTempChoice = prompt("Do you prefer to travel to destinations that are hot 
 
 switch (myTempChoice) {
     case "hot":        
-window.location="hot.htm"
+window.location="hot.html"
 break;
     case "cold":
-window.location="cold.htm"
+window.location="cold.html"
 break;
 default : alert("Please choose (hot) or (cold)");
     }
